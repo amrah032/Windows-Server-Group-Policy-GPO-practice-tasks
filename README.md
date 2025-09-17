@@ -10,7 +10,7 @@ Purpose: Automatically deploy 7-Zip.msi software to all or specified users.
 ✅ Result: 7-Zip is installed automatically when users log in.
 
 ![Software Deployment](Screenshots/auto software.png)
-![Software Deployment1](Screenshots/software result.png)
+![Software Deployment1](Screenshots/softwareresult.png)
 
 ---
 
