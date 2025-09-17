@@ -41,7 +41,6 @@ Purpose:
 ➡️ Path: User Configuration → Administrative Templates → Desktop & Control Panel
 ✅ Result: After 10 minutes the screen locks, and the user must enter a password to return.
 ![wallpaper and Screen saver](Screenshots/wallpaper.png)
-![wallpaper and Screen saver1](Screenshots/.png)
 ![wallpaper and Screen saver2](Screenshots/screensaver.png)
 ![wallpaper and Screen saver3](Screenshots/enablesaver.png)
 ![wallpaper and Screen saver3](Screenshots/passwordsaver.png)
