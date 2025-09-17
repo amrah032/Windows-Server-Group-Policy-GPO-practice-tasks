@@ -9,8 +9,8 @@ Purpose: Automatically deploy 7-Zip.msi software to all or specified users.
 ➡️ Path: Computer Configuration → Software Installation
 ✅ Result: 7-Zip is installed automatically when users log in.
 
-![Software Deployment](Screenshots/auto software.png)
-![Software Deployment1](Screenshots/software result.png)
+![Software Deployment](Screenshots/autosoftware.png)
+![Software Deployment1](Screenshots/softwareresult.png)
 
 
 ## 🟠 Task 2 – Folder Redirection (Documents)
@@ -18,9 +18,9 @@ Purpose: Redirect users’ Documents folder to the shared location \\DC01\UserDo
 ➡️ Path: User Configuration → Folder Redirection
 ✅ Result: Files created in the Documents folder on the client PC are stored on the server.
 
-![Folder Redirection](Screenshots/redirected folders.png)
-![Folder Redirection1](Screenshots/folders goruntu.png)
-![Folder Redirection2](Screenshots/linking 2.png)
+![Folder Redirection](Screenshots/redirectedfolders.png)
+![Folder Redirection1](Screenshots/foldersgoruntu.png)
+![Folder Redirection2](Screenshots/linking2.png)
 
 
 ---
@@ -43,8 +43,8 @@ Purpose:
 ![wallpaper and Screen saver](Screenshots/wallpaper.png)
 ![wallpaper and Screen saver1](Screenshots/.png)
 ![wallpaper and Screen saver2](Screenshots/screensaver.png)
-![wallpaper and Screen saver3](Screenshots/enable saver.png)
-![wallpaper and Screen saver3](Screenshots/password saver.png)
+![wallpaper and Screen saver3](Screenshots/enablesaver.png)
+![wallpaper and Screen saver3](Screenshots/passwordsaver.png)
 
 
 ---
@@ -54,7 +54,7 @@ Purpose: Add a shortcut to a shared file on all domain users’ desktops.
 ➡️ Path: User Configuration → Preferences → Windows Settings → Shortcuts
 ✅ Result: A shortcut appears on the user’s desktop and opens the shared file when clicked.
 ![Desktop Shortcut](Screenshots/shortcut.png)
-![Desktop Shortcut](Screenshots/shortcut result.png)
+![Desktop Shortcut](Screenshots/shortcutresult.png)
 
 
 ## 🔧 Forcing & Testing Group Policies
