@@ -9,8 +9,8 @@ Purpose: Automatically deploy 7-Zip.msi software to all or specified users.
 ➡️ Path: Computer Configuration → Software Installation
 ✅ Result: 7-Zip is installed automatically when users log in.
 
-![Software Deployment](screenshots/auto software.png)
-![Software Deployment1](screenshots/software result.png)
+![Software Deployment](Screenshots/auto software.png)
+![Software Deployment1](Screenshots/software result.png)
 
 ---
 
@@ -19,9 +19,9 @@ Purpose: Redirect users’ Documents folder to the shared location \\DC01\UserDo
 ➡️ Path: User Configuration → Folder Redirection
 ✅ Result: Files created in the Documents folder on the client PC are stored on the server.
 
-![Folder Redirection](screenshots/redirected folders.png)
-![Folder Redirection1](screenshots/folders goruntu.png)
-![Folder Redirection2](screenshots/linking 2.png)
+![Folder Redirection](Screenshots/redirected folders.png)
+![Folder Redirection1](Screenshots/folders goruntu.png)
+![Folder Redirection2](Screenshots/linking 2.png)
 
 
 ---
@@ -31,7 +31,7 @@ Purpose: Block USB storage devices for computers in a specific OU.
 ➡️ Path: Computer Configuration → Administrative Templates → System → Removable Storage Access
 ✅ Result: When a user plugs in a USB flash drive, the system will not recognize it.
 
-![Disable USB](screenshots/storage.png)
+![Disable USB](Screenshots/storage.png)
 
 ---
 
@@ -41,11 +41,11 @@ Purpose:
 - After 10 minutes of inactivity, the screen saver activates and requires a password on resume.
 ➡️ Path: User Configuration → Administrative Templates → Desktop & Control Panel
 ✅ Result: After 10 minutes the screen locks, and the user must enter a password to return.
-![wallpaper and Screen saver](screenshots/wallpaper.png)
-![wallpaper and Screen saver1](screenshots/.png)
-![wallpaper and Screen saver2](screenshots/screensaver.png)
-![wallpaper and Screen saver3](screenshots/enable saver.png)
-![wallpaper and Screen saver3](screenshots/password saver.png)
+![wallpaper and Screen saver](Screenshots/wallpaper.png)
+![wallpaper and Screen saver1](Screenshots/.png)
+![wallpaper and Screen saver2](Screenshots/screensaver.png)
+![wallpaper and Screen saver3](Screenshots/enable saver.png)
+![wallpaper and Screen saver3](Screenshots/password saver.png)
 
 
 ---
@@ -54,8 +54,8 @@ Purpose:
 Purpose: Add a shortcut to a shared file on all domain users’ desktops.
 ➡️ Path: User Configuration → Preferences → Windows Settings → Shortcuts
 ✅ Result: A shortcut appears on the user’s desktop and opens the shared file when clicked.
-![Desktop Shortcut](screenshots/shortcut.png)
-![Desktop Shortcut](screenshots/shortcut result.png)
+![Desktop Shortcut](Screenshots/shortcut.png)
+![Desktop Shortcut](Screenshots/shortcut result.png)
 
 
 ## 🔧 Forcing & Testing Group Policies
