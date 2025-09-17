@@ -9,10 +9,9 @@ Purpose: Automatically deploy 7-Zip.msi software to all or specified users.
 ➡️ Path: Computer Configuration → Software Installation
 ✅ Result: 7-Zip is installed automatically when users log in.
 
-![Software Deployment](Screenshots/autosoftware.png)
-![Software Deployment1](Screenshots/softwareresult.png)
+![Software Deployment](Screenshots/auto software.png)
+![Software Deployment1](Screenshots/software result.png)
 
----
 
 ## 🟠 Task 2 – Folder Redirection (Documents)
 Purpose: Redirect users’ Documents folder to the shared location \\DC01\UserDocs.
