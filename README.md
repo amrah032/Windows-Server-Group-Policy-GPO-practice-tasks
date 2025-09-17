@@ -4,6 +4,23 @@
 - Windows Server 2019
 - Active Directory domain services
 - Group Policy Management
+## 🔧 Forcing & Testing Group Policies
+Use the commands below on a client machine to force GPO updates and verify application.
+You have to use the commands after applying policies.
+
+```cmd
+:: Force all Group Policy settings to update immediately
+gpupdate /force
+
+:: View summary of applied Group Policy Objects
+gpresult /r
+
+:: Generate a detailed HTML report of applied GPOs
+gpresult /h C:\gporeport.html
+
+:: Open Resultant Set of Policy (GUI)
+rsop.msc
+
 ## 🟠 Task 1 – Software Deployment (MSI Installation)
 Purpose: Automatically deploy 7-Zip.msi software to all or specified users.
 ➡️ Path: Computer Configuration → Software Installation
@@ -54,22 +71,3 @@ Purpose: Add a shortcut to a shared file on all domain users’ desktops.
 ✅ Result: A shortcut appears on the user’s desktop and opens the shared file when clicked.
 ![Desktop Shortcut](Screenshots/shortcut.png)
 ![Desktop Shortcut](Screenshots/shortcutresult.png)
-
-
-## 🔧 Forcing & Testing Group Policies
-Use the commands below on a client machine to force GPO updates and verify application.
-
-```cmd
-:: Force all Group Policy settings to update immediately
-gpupdate /force
-
-:: View summary of applied Group Policy Objects
-gpresult /r
-
-:: Generate a detailed HTML report of applied GPOs
-gpresult /h C:\gporeport.html
-
-:: Open Resultant Set of Policy (GUI)
-rsop.msc
-
-
