@@ -19,7 +19,7 @@ gpresult /r
 gpresult /h C:\gporeport.html
 
 :: Open Resultant Set of Policy (GUI)
-rsop.msc
+rsop.msc ```cmd
 
 ## 🟠 Task 1 – Software Deployment (MSI Installation)
 Purpose: Automatically deploy 7-Zip.msi software to all or specified users.
